@@ -18,3 +18,12 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.section {
+    padding-top: 5vh;
+    min-height: 100vh;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}

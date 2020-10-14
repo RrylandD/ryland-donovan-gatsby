@@ -9,7 +9,7 @@ const desc= 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
 
 const Work = () => {
   return (
-    <div style={{marginBottom: "2rem"}}>
+    <div id="work" className='section'>
     	<h2 id="work">Work</h2>
     	<WorkFeatured title='Test Title' other='test' body={desc}/>
     </div>
