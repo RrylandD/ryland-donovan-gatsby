@@ -1,6 +1,6 @@
 import React from "react"
 
-import {LandingPage, About, Work, Layout} from "@components"
+import {LandingPage, About, Work, Contact, Layout} from "@components"
 import SEO from "../components/seo"
 import "@styles/global.scss"
 
@@ -10,6 +10,7 @@ const IndexPage = () => (
     <LandingPage />
     <About />
     <Work />
+    <Contact />
   </Layout>
 )
 
