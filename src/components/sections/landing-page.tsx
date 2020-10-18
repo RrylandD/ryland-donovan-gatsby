@@ -1,6 +1,7 @@
 import { Link } from "gatsby";
 import React from "react"
 import styled from "styled-components"
+import scrollTo from 'gatsby-plugin-smoothscroll';
 
 const FullPage = styled.div`
   display: flex;
@@ -40,16 +41,6 @@ const LandingPage = () => {
       </div>
     </FullPage>
   )
-}
-
-function scrollTo(id) {
-  var element = document.querySelector(id);
-  if (element) {
-    element.scrollIntoView({
-      behavior: "smooth", 
-      block: "start"
-    }); 
-  }
 }
 
 export default LandingPage
